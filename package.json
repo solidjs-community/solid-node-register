@@ -1,5 +1,5 @@
 {
-  "name": "solid-node-loader",
+  "name": "solid-register",
   "version": "1.0.0",
   "description": "Node loader for compiling JSX/TSX files using Solid's compiler.",
   "author": "Damian Tarnawski <gthetarnav@gmail.com>",
@@ -27,8 +27,8 @@
     }
   }, 
   "scripts": {
-    "test:ssr": "node --experimental-strip-types --import solid-node-loader/ssr --test tests/ssr.test.tsx",
-    "test:client": "node --experimental-strip-types --conditions=browser --import solid-node-loader/client --test tests/client.test.tsx",
+    "test:ssr": "node --experimental-strip-types --import solid-register --test tests/ssr.test.tsx",
+    "test:client": "node --experimental-strip-types --conditions=browser --import solid-register/client --test tests/client.test.tsx",
     "build": "tsc --build",
     "prepublishOnly": "pnpm run build"
   },
