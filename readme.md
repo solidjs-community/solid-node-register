@@ -1,4 +1,10 @@
-# Solid Register
+<p>
+  <img width="100%" src="https://assets.solidjs.com/banner?type=Community&background=tiles&project=node-register" alt="Solid Node Register">
+</p>
+
+# Solid Node Register
+
+[![version](https://img.shields.io/npm/v/solid-node-register?style=for-the-badge)](https://www.npmjs.com/package/solid-node-register)
 
 Node loader for compiling JSX/TSX files using Solid's compiler. Uses [Node's Module Customization Hooks](https://nodejs.org/api/module.html#customization-hooks) to register the loader for `.jsx` and `.tsx` files.
 
