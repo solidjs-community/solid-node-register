@@ -9,13 +9,13 @@ Requires Node `>=20.6.0`.
 Install the loader
 
 ```bash
-npm i solid-register # or pnpm, yarn, etc.
+npm i solid-node-register # or pnpm, yarn, etc.
 ```
 
 Run jsx/tsx files in SSR mode
 
 ```bash
-node --import=solid-register ./index.tsx
+node --import=solid-node-register ./index.tsx
 ```
 
 Run jsx/tsx files in client mode.\
@@ -23,7 +23,7 @@ Requires a browser condition to import the browser solid runtime.\
 Also requires for the DOM api to be mocked with `jsdom` or similar.
 
 ```bash
-node --conditions=browser --import=solid-register/client ./index.tsx
+node --conditions=browser --import=solid-node-register/client ./index.tsx
 ```
 
 ## TypeScript
