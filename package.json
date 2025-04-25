@@ -27,8 +27,8 @@
     }
   }, 
   "scripts": {
-    "test:ssr": "node --experimental-transform-types --import solid-node-loader/ssr --test 'tests/ssr.test.tsx'",
-    "test:client": "node --experimental-transform-types --conditions=browser --import solid-node-loader/client --test 'tests/client.test.tsx'",
+    "test:ssr": "node --experimental-strip-types --import solid-node-loader/ssr --test tests/ssr.test.tsx",
+    "test:client": "node --experimental-strip-types --conditions=browser --import solid-node-loader/client --test tests/client.test.tsx",
     "build": "tsc --build",
     "prepublishOnly": "pnpm run build"
   },
