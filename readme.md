@@ -21,15 +21,15 @@ npm i solid-node-register # or pnpm, yarn, etc.
 Run jsx/tsx files in SSR mode
 
 ```bash
-node --import=solid-node-register ./index.tsx
+node --import solid-node-register ./index.tsx
 ```
 
 Run jsx/tsx files in client mode.\
-Requires a browser condition to import the browser solid runtime.\
-Also requires for the DOM api to be mocked with `jsdom` or similar.
+Requires a `"browser"` condition to import the browser solid runtime.\
+Also requires the DOM API to be mocked with `jsdom` or similar.
 
 ```bash
-node --conditions=browser --import=solid-node-register/client ./index.tsx
+node -C browser --import solid-node-register ./index.tsx
 ```
 
 ## TypeScript
