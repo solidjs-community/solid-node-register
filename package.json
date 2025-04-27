@@ -37,7 +37,7 @@
     },
     "scripts": {
         "test:ssr": "node --experimental-strip-types --import solid-node-register --test tests/ssr.test.tsx",
-        "test:client": "node --experimental-strip-types --conditions=browser --import solid-node-register/client --test tests/client.test.tsx",
+        "test:client": "node --experimental-strip-types --conditions=browser --import solid-node-register/client --import ./tests/jsdom.ts --test tests/client.test.tsx",
         "build": "tsc --build",
         "prepublishOnly": "pnpm run build"
     },
