@@ -1,6 +1,6 @@
 {
     "name": "solid-node-register",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Node loader for compiling JSX/TSX files using Solid's compiler.",
     "author": "Damian Tarnawski <gthetarnav@gmail.com>",
     "license": "MIT",
