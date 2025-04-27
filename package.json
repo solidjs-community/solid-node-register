@@ -23,8 +23,8 @@
             "import": "./dist/register_ssr.js"
         },
         "./hooks": {
-            "types": "./dist/register_hooks.d.ts",
-            "import": "./dist/register_hooks.js"
+            "types": "./dist/hooks.d.ts",
+            "import": "./dist/hooks.js"
         },
         "./ssr": {
             "types": "./dist/register_ssr.d.ts",
